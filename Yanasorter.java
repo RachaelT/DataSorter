@@ -48,6 +48,12 @@ public static void main(String [ ] args) throws IOException
 			System .out.println(xvals.get(index) + "," + val);
 		}
 	}
+	
+	/* Print all values in CSV
+	for(int i = 0; i < xvals.size(); i++){
+		System.out.println(xvals[i]+","+yvals[i]);
+	}
+	*/
 
 }
 }
