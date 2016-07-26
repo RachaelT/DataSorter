@@ -35,7 +35,7 @@ public static void main(String [ ] args) throws IOException
 	for(double val: sorted_yvals){
 		if (pastVal == val) count++;
 		else {
-			System.out.println(pastVal + ", " + count);
+			System.out.println(pastVal + "," + count);
 			count = 1;
 		}
 		pastVal = val;
@@ -45,7 +45,7 @@ public static void main(String [ ] args) throws IOException
 	for(double val: sorted_yvals){
 		if(val > 10000){
 			int index = yvals.indexOf(val);
-			System .out.println(xvals.get(index) + ", " + val);
+			System .out.println(xvals.get(index) + "," + val);
 		}
 	}
 
